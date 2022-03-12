@@ -1,11 +1,11 @@
 import React from "react";
+import Home from "./Pages/Home";
 import globalStyles from "./styles/resetCss";
 
-export default function App () {
+const App = () => {
   globalStyles();
   return (
-    <>
-      <h1>test</h1>
-    </>
-  )
+    <Home />
+  );
 }
+export default App;
