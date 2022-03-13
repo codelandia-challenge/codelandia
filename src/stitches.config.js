@@ -22,8 +22,9 @@ export const { styled, css } = createStitches({
     sizes: {
       // Container sizes
       size_full: "100%",
+      size: "32px",
       size_1: "42px",
-      size_2: "62px",
+      size_2: "60px",
       size_3: "165px",
       size_4: "222px",
       size_5: "248px",

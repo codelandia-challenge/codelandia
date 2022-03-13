@@ -1,10 +1,12 @@
-import React from "react";;
+import React from "react";
+import Content from "../Design/Components/Content";
+import MyHeader from "../Design/Containers/Header";
 
 const Home = () => {
   return (
-    <>
-      <h1>Text Application</h1>
-    </>
+      <Content>
+        <MyHeader />
+      </Content>
   );
 };
 export default Home;

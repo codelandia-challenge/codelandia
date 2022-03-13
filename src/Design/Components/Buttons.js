@@ -1,40 +1,46 @@
 import { styled } from "../../stitches.config";
 
-export const Button = styled("a", {
-  width: "$size_full",
-  maxWidth: "$size_3",
-  height: "$size_1",
+const Button = styled("a", {
   fontFamily: "$dm_sans",
   fontSize: "$size_1",
+  cursor: "pointer",
+  borderRadius: "4px",
   display: "flex",
-  alignItems: "center",
   justifyContent: "center",
+  alignItems: "center",
+  transition: "all 0.3s",
+  color: "$gray_light",
+
+  "&:hover": {
+    opacity: "80%",
+  },
 
   variants: {
-    color: {
+    styles: {
       demoApplication: {
         border: "1px solid $green",
-        borderRadius: "4px",
         backgroundColor: "$green",
-        color: "$gray_light",
-        cursor: "pointer",
 
-        "&:hover": {
-          opacity: "90%",
-        },
+      },
+
+      gitHubChallenge: {
+        border: "1px solid $green",
+        backgroundColor: "$colorOff",
+        cursor: "pointer",
       },
 
       gitHubRepository: {
-        border: "1px solid $green",
-        borderRadius: "4px",
-        backgroundColor: "$colorOff",
-        color: "$gray_light",
-        cursor: "pointer",
+        width: "$size_3",
+        height: "$size_2",
+      },
 
-        "&:hover": {
-          opacity: "90%",
-        },
+      community: {
+        width: "$size_4",
+        height: "$size_2",
+        border: "1px solid $purple",
+        cursor: "pointer",
       },
     },
   },
 });
+export default Button;
