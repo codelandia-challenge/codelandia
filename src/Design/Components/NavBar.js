@@ -7,6 +7,16 @@ const NavBar = styled("nav", {
   margin: "0 auto",
   display: "flex",
   justifyContent: "space-between",
-  alignItems: "center"
-})
+  alignItems: "center",
+  position: "relative",
+  transition: "all 0.3s",
+
+  variants: {
+    space: {
+      px: {
+        padding: "0 $gap",
+      },
+    },
+  },
+});
 export default NavBar;

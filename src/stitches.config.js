@@ -5,7 +5,7 @@ export const { styled, css } = createStitches({
     sm: '(max-width: 640px)',
     md: '(max-width: 768px)',
     lg: '(max-width: 960px)',
-    xl: '(max-width: 1024)',
+    xl: '(max-width: 1024px)',
   },
   theme: {
     colors: {
@@ -18,6 +18,7 @@ export const { styled, css } = createStitches({
       gray_light: "#f9f9f9",
     },
     space: {
+      gap: "20px",
       gap_1: "24px",
       gap_2: "26px",
       gap_3: "29px",

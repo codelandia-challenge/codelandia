@@ -5,11 +5,18 @@ const Images = styled("img", {
   height: "100%",
 
   variants: {
-    content: {
+    styles: {
       imgLogo: {
         maxWidth: "$size_3",
-        height: "$size_1",
+        height: "$size_full",
+      },
+
+      imgMenu: {
+        color: "$gray_light",
+        width: '$size_full',
+        height: '$size_full',
       }
+
     }
   }
 })

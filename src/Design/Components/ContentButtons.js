@@ -13,7 +13,7 @@ const ContentButtons = styled("div", {
       contentDisable: {
         display: "none",
       }
-    }
+    },
   }
 })
 export default ContentButtons;

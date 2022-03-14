@@ -20,7 +20,6 @@ const Button = styled("a", {
       demoApplication: {
         border: "1px solid $green",
         backgroundColor: "$green",
-
       },
 
       gitHubChallenge: {
@@ -39,6 +38,17 @@ const Button = styled("a", {
         height: "$size_2",
         border: "1px solid $purple",
         cursor: "pointer",
+      },
+
+      buttonMenu: {
+        display: "flex",
+        justifyContent: "flex-end",
+        width: "$size_2",
+        height: "$size_2",
+      },
+
+      defaultButton: {
+        display: "none",
       },
     },
   },
