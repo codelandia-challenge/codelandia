@@ -8,14 +8,14 @@ const Span = styled("span", {
     styles: {
       spanCommunity: {
         color: "$green",
-        fontSize: "$size_1",
+        fontSize: "$size",
         paddingBottom: "$gap",
         textTransform: "uppercase",
       },
 
       // size fontes
-      text_2: {
-        fontSize: "$size_1",
+      text_bs: {
+        fontSize: "$size",
       }
     }
   }
