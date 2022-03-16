@@ -1,4 +1,4 @@
-import { globalCss } from "@stitches/react";
+import { globalCss} from "@stitches/react";
 
 const globalStyles = globalCss({
     '*': {
@@ -6,6 +6,5 @@ const globalStyles = globalCss({
         padding: 0,
         boxSizing: "border-box",
     },
-
 })
 export default globalStyles;
