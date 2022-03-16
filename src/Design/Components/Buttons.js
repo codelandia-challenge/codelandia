@@ -2,7 +2,7 @@ import { styled } from "../../stitches.config";
 
 const Button = styled("a", {
   fontFamily: "$dm_sans",
-  fontSize: "$size_1",
+  fontSize: "$size",
   cursor: "pointer",
   borderRadius: "4px",
   display: "flex",
@@ -10,6 +10,7 @@ const Button = styled("a", {
   alignItems: "center",
   transition: "all 0.3s",
   color: "$gray_light",
+  width: "$size_full",
 
   "&:hover": {
     opacity: "80%",
@@ -20,9 +21,11 @@ const Button = styled("a", {
       demoApplication: {
         border: "1px solid $green",
         backgroundColor: "$green",
+        height: "$size_1",
       },
 
       gitHubChallenge: {
+        height: "$size_1",
         border: "1px solid $green",
         backgroundColor: "$colorOff",
         cursor: "pointer",

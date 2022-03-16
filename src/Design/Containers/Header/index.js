@@ -43,7 +43,7 @@ const MyHeader = () => {
           <Images src={codelandiaLogo} alt="Logo" styles="imgLogo" />
         </ContentImages>
 
-        {/* Contents Buttons NavBar */}
+        {/* Content Buttons NavBar */}
         <ContentButtons
           styles={{
             "@initial": "content",

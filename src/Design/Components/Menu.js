@@ -16,6 +16,8 @@ const Menu = styled("ul", {
         top: "65px",
         right: "$gap",
         border: "1px solid $purple",
+        backdropFilter: "blur(5px)",
+        backgroundColor: "$dark_transparent",
       },
 
       menuIsDefault: {
