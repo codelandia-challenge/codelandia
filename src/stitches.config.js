@@ -12,12 +12,14 @@ export const { styled, css } = createStitches({
     colors: {
       colorOff: "transparent",
       purple: "#873eff",
+      purple_transparent: "rgba(135,62,255,0.56)",
       green: "#04d361",
       dark: "#0e091b",
       dark_transparent: "rgba(14, 9, 27, 0.85)",
       dark_200: "#171228",
       gray: "#aeaeae",
       gray_light: "#f9f9f9",
+      gray_transparent: "rgba(174,174,174,0.10)",
     },
     space: {
       gap: "20px",

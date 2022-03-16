@@ -13,8 +13,8 @@ const ContentImages = styled("figure", {
         justifyContent: "flex-start",
         alignItems: "center",
         color: "$gray_light",
-      }
-    }
-  }
+      },
+    },
+  },
 });
 export default ContentImages;

@@ -2,7 +2,6 @@ import { styled } from "../../stitches.config";
 
 const ContentButtons = styled("div", {
   display: "block",
-  height: "$size_full",
   gap: "20px",
 
   variants: {
@@ -10,10 +9,18 @@ const ContentButtons = styled("div", {
       content: {
         display: "flex",
       },
+      contentButtonPost: {
+        marginTop: "$gap_3",
+        display: "flex",
+      },
+      flex_col: {
+        display: "flex",
+        flexWrap: "wrap",
+      },
       contentDisable: {
         display: "none",
-      }
+      },
     },
-  }
-})
+  },
+});
 export default ContentButtons;

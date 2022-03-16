@@ -15,6 +15,14 @@ const Images = styled("img", {
         color: "$gray_light",
         width: '$size_full',
         height: '$size_full',
+      },
+      imgPost: {
+        color: "$gray_light",
+        width: '$size_full',
+        height: '$size_full',
+        borderRadius: "15px",
+        backgroundColor: "$dark",
+        padding: "$gap",
       }
 
     }

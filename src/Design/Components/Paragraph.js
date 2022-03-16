@@ -1,4 +1,4 @@
-import { styled } from "../../stitches.config.js";
+  import { styled } from "../../stitches.config.js";
 
 const Paragraph = styled("p", {
   width: "$size_full",
@@ -14,9 +14,12 @@ const Paragraph = styled("p", {
 
   variants: {
     styles: {
+      paragraph: {
+        fontSize: "12px",
+      },
       paragraph_bs: {
         fontSize: "$size",
-       
+
       },
       paragraph_sm: {
         fontSize: "$size_1",
