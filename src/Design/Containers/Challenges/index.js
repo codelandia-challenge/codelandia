@@ -22,7 +22,7 @@ const Challenges = () => {
         return (
           <Article key={index}>
             <Figure>
-              <Images styles="imgPost" src={post.assets} />
+              <Images styles="imgPost" src={post.assets} alt={post.descriptionAlt} loading={post.loading} />
             </Figure>
             <Title>{post.titleProject}</Title>
             <Paragraph
@@ -34,8 +34,8 @@ const Challenges = () => {
               "@initial": "contentButtonPost",
               "@md": "flex_col",
             }}>
-              <Buttons styles="demoApplication">Demo</Buttons>
-              <Buttons styles="gitHubChallenge">GitHub</Buttons>
+              <Buttons href="#" styles="demoApplication">Demo</Buttons>
+              <Buttons href="#" styles="gitHubChallenge">GitHub</Buttons>
             </ContentButtons>
           </Article>
         );

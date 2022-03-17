@@ -23,20 +23,20 @@ const MyWrapper = () => {
         "@sm": "title_sm",
         "@bs": "title_bs",
       }}>
-        Projetos da <br /> 
+        Projetos da <br />
         comunidade Codelândia
       </Title>
       <Paragraph styles={{
-        "@initial": "paragraph_md",
+        "@initial": "paragraphWrapper",
         "@sm": "paragraph_bs",
       }}>
-        Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Donec felis ligula, accumsan nec cursus in, 
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+        Donec felis ligula, accumsan nec cursus in,
         eleifend sit amet dui.
       </Paragraph>
 
-      
+
     </Section>
   );
 }
