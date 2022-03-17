@@ -12,7 +12,7 @@ const Paragraph = styled("p", {
       paragraphWrapper: {
         display: "flex",
         alignItems: "center",
-        border: "1px solid blue",
+        padding: "$gap 0",
         height: "100%",
         maxWidth: "$size_10",
       },
