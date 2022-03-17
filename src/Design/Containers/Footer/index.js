@@ -34,7 +34,7 @@ const MyFooter = () => {
           "@initial": "paragraphFooter",
           "@sm": "paragraphFooterMobile",
         }}>
-          2022 - Davi Santos Dias | Codelândia
+          (c) 2022 - Davi Santos Dias | Codelândia
         </Paragraph>
       </Section>
     </Footer>

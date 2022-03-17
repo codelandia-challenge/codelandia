@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "codelândia"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#4989e4"
+    }
 }
