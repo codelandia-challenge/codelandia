@@ -1,33 +1,47 @@
-  import { styled } from "../../stitches.config.js";
+import { styled } from "../../stitches.config.js";
 
 const Paragraph = styled("p", {
   width: "$size_full",
-  maxWidth: "$size_10",
   color: "$gray",
   fontFamily: "$ibm_plex",
-  paddingTop: "$gap",
-  display: "flex",
-  justifyContent: "flex-start",
   alignItems: "center",
- lineHeight: "23px",
-
+  lineHeight: "23px",
 
   variants: {
     styles: {
+      paragraphWrapper: {
+        display: "flex",
+        alignItems: "center",
+        border: "1px solid blue",
+        height: "100%",
+        maxWidth: "$size_10",
+      },
       paragraph: {
         fontSize: "12px",
       },
       paragraph_bs: {
         fontSize: "$size",
-
       },
       paragraph_sm: {
         fontSize: "$size_1",
       },
       paragraph_md: {
         fontSize: "$size_1",
-      }
-    }
-  }
-})
+      },
+      paragraphFooter: {
+        maxWidth: "$size_6",
+        fontSize: "12px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "flex-end",
+        flexWrap: "wrap",
+        height: "100%",
+      },
+      paragraphFooterMobile: {
+        justifyContent: "center",
+        paddingTop: "$gap",
+      },
+    },
+  },
+});
 export default Paragraph;
