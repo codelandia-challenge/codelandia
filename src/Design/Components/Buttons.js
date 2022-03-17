@@ -2,7 +2,7 @@ import { styled } from "../../stitches.config";
 
 const Button = styled("a", {
   fontFamily: "$dm_sans",
-  fontSize: "$size",
+  fontSize: "$size_1",
   cursor: "pointer",
   borderRadius: "4px",
   display: "flex",
